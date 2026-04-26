@@ -4,7 +4,7 @@ import { useEffect, useRef } from "react"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, MessageCircle } from "lucide-react"
 
-const WHATSAPP_LINK = "https://wa.me/5567991030163?text=Olá! Quero entrar no grupo de promoções!"
+const GROUP_LINK = "https://bit.ly/promosbastiel"
 
 export function CTA() {
   const sectionRef = useRef<HTMLElement>(null)
@@ -70,7 +70,7 @@ export function CTA() {
               size="lg"
               className="bg-primary text-primary-foreground hover:bg-primary/90 text-lg px-8 py-6 w-full sm:w-auto"
             >
-              <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer">
+              <a href={GROUP_LINK} target="_blank" rel="noopener noreferrer">
                 Entre Já no Grupo
                 <ArrowRight className="ml-2 h-5 w-5" />
               </a>
@@ -81,7 +81,7 @@ export function CTA() {
               size="lg"
               className="border-gray-600 text-white hover:bg-gray-800 text-lg px-8 py-6 w-full sm:w-auto"
             >
-              <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer">
+              <a href={GROUP_LINK} target="_blank" rel="noopener noreferrer">
                 <MessageCircle className="mr-2 h-5 w-5" />
                 Falar no WhatsApp
               </a>
