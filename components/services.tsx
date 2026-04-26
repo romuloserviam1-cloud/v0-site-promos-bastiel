@@ -1,11 +1,8 @@
 "use client"
 
 import { useEffect, useRef } from "react"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Zap, Bell, ShoppingCart, Shield, Clock, Gift } from "lucide-react"
-
-const WHATSAPP_LINK = "https://wa.me/5567991030163?text=Olá! Quero entrar no grupo de promoções!"
 
 const services = [
   {
@@ -101,17 +98,6 @@ export function Services() {
                   {service.description}
                 </CardDescription>
               </CardContent>
-              <CardFooter>
-                <Button
-                  asChild
-                  variant="outline"
-                  className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-                >
-                  <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer">
-                    Entrar no Grupo de Graça
-                  </a>
-                </Button>
-              </CardFooter>
             </Card>
           ))}
         </div>
