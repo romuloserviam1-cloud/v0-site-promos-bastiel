@@ -1,6 +1,7 @@
 "use client"
 
 import { useEffect, useRef } from "react"
+import Image from "next/image"
 import { Users, Clock, ShieldCheck, TrendingUp } from "lucide-react"
 
 const stats = [
@@ -93,6 +94,22 @@ export function About() {
               </div>
             ))}
           </div>
+        </div>
+
+        {/* Bastiel Photo Section */}
+        <div className="mt-16 flex flex-col items-center">
+          <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-2xl overflow-hidden border-4 border-primary/30 shadow-2xl shadow-primary/20">
+            <Image
+              src="/images/bastiel.png"
+              alt="Bastiel - Fundador do Promos do Bastiel"
+              fill
+              className="object-cover"
+              priority
+            />
+          </div>
+          <p className="mt-6 text-center text-muted-foreground text-lg">
+            <span className="text-primary font-semibold">Bastiel</span> - Fundador e Curador de Promoções
+          </p>
         </div>
       </div>
     </section>
