@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from "react"
 import { Button } from "@/components/ui/button"
-import { ArrowRight, MessageCircle } from "lucide-react"
+import { ArrowRight } from "lucide-react"
 
 const GROUP_LINK = "https://bit.ly/promosbastiel"
 
@@ -63,27 +63,16 @@ export function CTA() {
             </span>
           </div>
 
-          {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+          {/* CTA Button */}
+          <div className="flex items-center justify-center">
             <Button
               asChild
               size="lg"
-              className="bg-primary text-primary-foreground hover:bg-primary/90 text-lg px-8 py-6 w-full sm:w-auto"
+              className="bg-primary text-primary-foreground hover:bg-primary/90 text-lg px-8 py-6"
             >
               <a href={GROUP_LINK} target="_blank" rel="noopener noreferrer">
                 Entre Já no Grupo
                 <ArrowRight className="ml-2 h-5 w-5" />
-              </a>
-            </Button>
-            <Button
-              asChild
-              variant="outline"
-              size="lg"
-              className="border-gray-600 text-white hover:bg-gray-800 text-lg px-8 py-6 w-full sm:w-auto"
-            >
-              <a href={GROUP_LINK} target="_blank" rel="noopener noreferrer">
-                <MessageCircle className="mr-2 h-5 w-5" />
-                Falar no WhatsApp
               </a>
             </Button>
           </div>
