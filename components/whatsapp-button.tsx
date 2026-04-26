@@ -2,7 +2,7 @@
 
 import { MessageCircle } from "lucide-react"
 
-const WHATSAPP_LINK = "https://wa.me/5567991030163?text=Olá! Quero entrar no grupo de promoções!"
+const WHATSAPP_LINK = "https://chat.whatsapp.com/Gk46MEKPcJmIYDPQkxjJPf?mode=gi_t"
 
 export function WhatsAppButton() {
   return (
