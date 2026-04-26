@@ -7,37 +7,37 @@ import { Star, Quote } from "lucide-react"
 const testimonials = [
   {
     name: "Mariana Silva",
-    role: "Membro há 6 meses",
+    role: "Membro VIP",
     content: "Economizei mais de R$ 800 em três meses! As promoções são reais e chegam rápido. Recomendo demais para quem quer gastar menos.",
     rating: 5,
   },
   {
     name: "Carlos Eduardo",
-    role: "Membro há 1 ano",
+    role: "Especialista em Promoções",
     content: "O melhor grupo de promoções que já participei. Não enchem meu WhatsApp com spam, só mandam ofertas que realmente valem a pena.",
     rating: 5,
   },
   {
     name: "Ana Beatriz",
-    role: "Membro há 4 meses",
+    role: "Caçadora de Ofertas",
     content: "Comprei um notebook com 40% de desconto graças ao grupo! A equipe é muito rápida em postar as ofertas antes de acabar.",
     rating: 5,
   },
   {
     name: "Rafael Santos",
-    role: "Membro há 8 meses",
+    role: "Comprador Inteligente",
     content: "Confiança total. Todas as promoções que aproveitei foram de lojas sérias e os produtos chegaram certinho. Muito obrigado!",
     rating: 5,
   },
   {
     name: "Juliana Costa",
-    role: "Membro há 3 meses",
+    role: "Insider de Descontos",
     content: "Achei incrível ser totalmente gratuito! Já economizei bastante em compras para casa e para os pets. Super recomendo.",
     rating: 5,
   },
   {
     name: "Pedro Henrique",
-    role: "Membro há 5 meses",
+    role: "Mestre da Economia",
     content: "Qualidade das ofertas é excelente. Não é igual outros grupos que postam qualquer coisa. Aqui só vem promoção boa mesmo.",
     rating: 5,
   },
