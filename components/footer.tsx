@@ -1,7 +1,5 @@
 import Link from "next/link"
-import { Tag, Instagram, Mail, MapPin, Phone } from "lucide-react"
-
-const WHATSAPP_LINK = "https://wa.me/5567991030163?text=Olá! Quero tirar dúvidas sobre o grupo de promoções!"
+import { Tag, Instagram } from "lucide-react"
 
 export function Footer() {
   const currentYear = new Date().getFullYear()
@@ -67,41 +65,7 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Contact */}
-          <div>
-            <h3 className="text-foreground font-semibold mb-4">Contato</h3>
-            <ul className="space-y-3">
-              <li>
-                <a
-                  href={WHATSAPP_LINK}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
-                >
-                  <Phone className="h-4 w-4" />
-                  (67) 99103-0163
-                </a>
-              </li>
-              <li>
-                <a
-                  href="mailto:promosdobastiel@gmail.com"
-                  className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
-                >
-                  <Mail className="h-4 w-4" />
-                  promosdobastiel@gmail.com
-                </a>
-              </li>
-              <li>
-                <span className="flex items-start gap-2 text-muted-foreground">
-                  <MapPin className="h-4 w-4 mt-0.5 flex-shrink-0" />
-                  Rua Claudio Goelzer 1060
-                </span>
-              </li>
-            </ul>
-            <p className="text-sm text-muted-foreground mt-4">
-              Atendimento: Segunda a Domingo
-            </p>
-          </div>
+          
         </div>
 
         {/* Bottom Bar */}

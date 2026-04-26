@@ -5,7 +5,7 @@ import Link from "next/link"
 import { Menu, X, Tag } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-const WHATSAPP_LINK = "https://wa.me/5567991030163?text=Olá! Quero entrar no grupo de promoções!"
+const INSTAGRAM_LINK = "https://www.instagram.com/promosdobastiel26/"
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
@@ -48,8 +48,8 @@ export function Navbar() {
           {/* CTA Button - Desktop */}
           <div className="hidden lg:block">
             <Button asChild className="bg-primary text-primary-foreground hover:bg-primary/90">
-              <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer">
-                Quero Tirar Dúvidas
+              <a href={INSTAGRAM_LINK} target="_blank" rel="noopener noreferrer">
+                Acesse Nosso Instagram
               </a>
             </Button>
           </div>
@@ -79,8 +79,8 @@ export function Navbar() {
                 </Link>
               ))}
               <Button asChild className="bg-primary text-primary-foreground hover:bg-primary/90 w-full mt-2">
-                <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer">
-                  Quero Tirar Dúvidas
+                <a href={INSTAGRAM_LINK} target="_blank" rel="noopener noreferrer">
+                  Acesse Nosso Instagram
                 </a>
               </Button>
             </div>
