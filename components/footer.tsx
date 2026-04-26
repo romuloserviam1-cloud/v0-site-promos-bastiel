@@ -1,5 +1,6 @@
 import Link from "next/link"
-import { Tag, Instagram } from "lucide-react"
+import Image from "next/image"
+import { Instagram } from "lucide-react"
 
 export function Footer() {
   const currentYear = new Date().getFullYear()
@@ -11,8 +12,13 @@ export function Footer() {
           {/* Brand */}
           <div className="lg:col-span-2">
             <Link href="/" className="flex items-center gap-2 mb-4">
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary text-primary-foreground">
-                <Tag className="h-5 w-5" />
+              <div className="relative h-10 w-10 rounded-full overflow-hidden">
+                <Image
+                  src="/images/logo.jpg"
+                  alt="Promos do Bastiel"
+                  fill
+                  className="object-cover"
+                />
               </div>
               <span className="text-lg font-bold text-foreground">
                 Promos do Bastiel

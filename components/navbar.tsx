@@ -2,7 +2,8 @@
 
 import { useState } from "react"
 import Link from "next/link"
-import { Menu, X, Tag } from "lucide-react"
+import Image from "next/image"
+import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const INSTAGRAM_LINK = "https://www.instagram.com/promosdobastiel26/"
@@ -24,8 +25,13 @@ export function Navbar() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group">
-            <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary text-primary-foreground">
-              <Tag className="h-5 w-5" />
+            <div className="relative h-10 w-10 rounded-full overflow-hidden">
+              <Image
+                src="/images/logo.jpg"
+                alt="Promos do Bastiel"
+                fill
+                className="object-cover"
+              />
             </div>
             <span className="text-lg font-bold text-foreground group-hover:text-primary transition-colors">
               Promos do Bastiel
