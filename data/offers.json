@@ -1,0 +1,89 @@
+{
+  "offer1": {
+    "title": "Smartphone Samsung Galaxy A54",
+    "description": "Tela Super AMOLED 6.4\", 128GB, 8GB RAM, Câmera 50MP",
+    "imageUrl": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&h=400&fit=crop",
+    "originalPrice": "R$ 2.499,00",
+    "salePrice": "R$ 1.799,00",
+    "discountPercent": "28%",
+    "store": "Amazon",
+    "link": "https://amazon.com.br"
+  },
+
+  "offer2": {
+    "title": "Air Fryer Philips Walita 4.1L",
+    "description": "Tecnologia Rapid Air, Timer digital, 7 funções pré-programadas",
+    "imageUrl": "https://images.unsplash.com/photo-1585515320310-259814833e62?w=400&h=400&fit=crop",
+    "originalPrice": "R$ 699,00",
+    "salePrice": "R$ 399,00",
+    "discountPercent": "43%",
+    "store": "Magazine Luiza",
+    "link": "https://magazineluiza.com.br"
+  },
+
+  "offer3": {
+    "title": "Notebook Lenovo IdeaPad 3",
+    "description": "Intel Core i5, 8GB RAM, SSD 256GB, Tela 15.6\" Full HD",
+    "imageUrl": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400&h=400&fit=crop",
+    "originalPrice": "R$ 3.999,00",
+    "salePrice": "R$ 2.699,00",
+    "discountPercent": "33%",
+    "store": "Americanas",
+    "link": "https://americanas.com.br"
+  },
+
+  "offer4": {
+    "title": "Tênis Nike Air Max 90",
+    "description": "Clássico revisitado, tecnologia Air Max, conforto premium",
+    "imageUrl": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop",
+    "originalPrice": "R$ 899,00",
+    "salePrice": "R$ 549,00",
+    "discountPercent": "39%",
+    "store": "Netshoes",
+    "link": "https://netshoes.com.br"
+  },
+
+  "offer5": {
+    "title": "Smart TV LG 50\" 4K",
+    "description": "WebOS 23, ThinQ AI, HDR10, Bluetooth, Wi-Fi integrado",
+    "imageUrl": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=400&h=400&fit=crop",
+    "originalPrice": "R$ 3.299,00",
+    "salePrice": "R$ 2.199,00",
+    "discountPercent": "33%",
+    "store": "Casas Bahia",
+    "link": "https://casasbahia.com.br"
+  },
+
+  "offer6": {
+    "title": "Fone Bluetooth JBL Tune 510BT",
+    "description": "Até 40h de bateria, conexão multipontos, dobrável",
+    "imageUrl": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=400&fit=crop",
+    "originalPrice": "R$ 299,00",
+    "salePrice": "R$ 179,00",
+    "discountPercent": "40%",
+    "store": "Amazon",
+    "link": "https://amazon.com.br"
+  },
+
+  "offer7": {
+    "title": "Cafeteira Nespresso Vertuo",
+    "description": "Sistema cápsulas, 5 tamanhos de café, aquecimento rápido",
+    "imageUrl": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?w=400&h=400&fit=crop",
+    "originalPrice": "R$ 899,00",
+    "salePrice": "R$ 599,00",
+    "discountPercent": "33%",
+    "store": "Magazine Luiza",
+    "link": "https://magazineluiza.com.br"
+  },
+
+  "offer8": {
+    "title": "Relógio Smartwatch Xiaomi Band 8",
+    "description": "Tela AMOLED, monitoramento cardíaco, 150+ modos esportivos",
+    "imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=400&fit=crop",
+    "originalPrice": "R$ 349,00",
+    "salePrice": "R$ 229,00",
+    "discountPercent": "34%",
+    "store": "Americanas",
+    "link": "https://americanas.com.br"
+  }
+}
