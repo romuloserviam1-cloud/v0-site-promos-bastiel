@@ -1,35 +1,27 @@
 "use client"
 
-import { useEffect, useRef, useState } from "react"
+import { useEffect, useRef } from "react"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { ExternalLink, Tag, Clock, Loader2 } from "lucide-react"
-import { type Offer, mockOffers } from "@/lib/wordpress"
+import { ExternalLink, Tag, Clock } from "lucide-react"
+import offersData from "@/data/offers.json"
+
+export interface Offer {
+  id: string
+  title: string
+  description: string
+  imageUrl: string
+  originalPrice: string
+  salePrice: string
+  discountPercent: string
+  store: string
+  link: string
+}
 
 export function DailyOffers() {
   const sectionRef = useRef<HTMLElement>(null)
-  const [offers, setOffers] = useState<Offer[]>(mockOffers)
-  const [isLoading, setIsLoading] = useState(true)
-
-  useEffect(() => {
-    // Busca ofertas do WordPress via API route
-    async function fetchOffers() {
-      try {
-        const response = await fetch("/api/offers")
-        if (response.ok) {
-          const data = await response.json()
-          setOffers(data)
-        }
-      } catch (error) {
-        console.error("Erro ao buscar ofertas:", error)
-      } finally {
-        setIsLoading(false)
-      }
-    }
-
-    fetchOffers()
-  }, [])
+  const offers: Offer[] = offersData.offers
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -61,7 +53,7 @@ export function DailyOffers() {
         <div className="text-center mb-16">
           <span className="inline-flex items-center gap-2 text-primary font-semibold mb-4 uppercase tracking-wider text-sm">
             <Clock className="h-4 w-4" />
-            Atualizadas em tempo real
+            Atualizadas diariamente
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4 text-balance">
             Ofertas do Dia
@@ -72,37 +64,28 @@ export function DailyOffers() {
           </p>
         </div>
 
-        {/* Loading State */}
-        {isLoading ? (
-          <div className="flex items-center justify-center py-12">
-            <Loader2 className="h-8 w-8 animate-spin text-primary" />
-          </div>
-        ) : (
-          <>
-            {/* Offers Grid */}
-            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              {offers.map((offer) => (
-                <OfferCard key={offer.id} offer={offer} />
-              ))}
-            </div>
+        {/* Offers Grid */}
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {offers.map((offer) => (
+            <OfferCard key={offer.id} offer={offer} />
+          ))}
+        </div>
 
-            {/* CTA */}
-            <div className="text-center mt-12">
-              <p className="text-muted-foreground mb-4">
-                Quer receber todas as ofertas em primeira mão?
-              </p>
-              <Button asChild size="lg" className="font-semibold">
-                <a
-                  href="https://chat.whatsapp.com/seu-grupo"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Entrar no Grupo do WhatsApp
-                </a>
-              </Button>
-            </div>
-          </>
-        )}
+        {/* CTA */}
+        <div className="text-center mt-12">
+          <p className="text-muted-foreground mb-4">
+            Quer receber todas as ofertas em primeira mão?
+          </p>
+          <Button asChild size="lg" className="font-semibold">
+            <a
+              href="https://chat.whatsapp.com/seu-grupo"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Entrar no Grupo do WhatsApp
+            </a>
+          </Button>
+        </div>
       </div>
     </section>
   )
