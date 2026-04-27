@@ -1,11 +1,10 @@
 "use client"
 
-import { useEffect, useRef } from "react"
+import { useEffect, useRef, useState } from "react"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { ExternalLink, Tag, Clock } from "lucide-react"
-import offersData from "@/data/offers.json"
+import { ExternalLink, Tag, Clock, Loader2 } from "lucide-react"
 
 export interface Offer {
   id: string
@@ -21,12 +20,40 @@ export interface Offer {
 
 export function DailyOffers() {
   const sectionRef = useRef<HTMLElement>(null)
-  
-  // Converte o objeto de ofertas em um array
-  const offers: Offer[] = Object.entries(offersData).map(([key, offer]) => ({
-    id: key,
-    ...offer
-  }))
+  const [offers, setOffers] = useState<Offer[]>([])
+  const [loading, setLoading] = useState(true)
+  const [error, setError] = useState<string | null>(null)
+
+  // Busca ofertas da API
+  useEffect(() => {
+    async function fetchOffers() {
+      try {
+        const response = await fetch("/api/offers", {
+          cache: "no-store",
+        })
+        
+        if (!response.ok) {
+          throw new Error("Falha ao carregar ofertas")
+        }
+        
+        const data = await response.json()
+        
+        // Converte o objeto de ofertas em um array
+        const offersArray: Offer[] = Object.entries(data).map(([key, offer]) => ({
+          id: key,
+          ...(offer as Omit<Offer, "id">)
+        }))
+        
+        setOffers(offersArray)
+      } catch (err) {
+        setError(err instanceof Error ? err.message : "Erro desconhecido")
+      } finally {
+        setLoading(false)
+      }
+    }
+
+    fetchOffers()
+  }, [])
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -69,12 +96,36 @@ export function DailyOffers() {
           </p>
         </div>
 
+        {/* Loading State */}
+        {loading && (
+          <div className="flex justify-center items-center py-20">
+            <Loader2 className="h-8 w-8 animate-spin text-primary" />
+            <span className="ml-3 text-muted-foreground">Carregando ofertas...</span>
+          </div>
+        )}
+
+        {/* Error State */}
+        {error && (
+          <div className="text-center py-20">
+            <p className="text-destructive">{error}</p>
+            <Button 
+              variant="outline" 
+              className="mt-4"
+              onClick={() => window.location.reload()}
+            >
+              Tentar novamente
+            </Button>
+          </div>
+        )}
+
         {/* Offers Grid */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {offers.map((offer) => (
-            <OfferCard key={offer.id} offer={offer} />
-          ))}
-        </div>
+        {!loading && !error && (
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {offers.map((offer) => (
+              <OfferCard key={offer.id} offer={offer} />
+            ))}
+          </div>
+        )}
 
         {/* CTA */}
         <div className="text-center mt-12">
