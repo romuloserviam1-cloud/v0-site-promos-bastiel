@@ -21,7 +21,12 @@ export interface Offer {
 
 export function DailyOffers() {
   const sectionRef = useRef<HTMLElement>(null)
-  const offers: Offer[] = offersData.offers
+  
+  // Converte o objeto de ofertas em um array
+  const offers: Offer[] = Object.entries(offersData).map(([key, offer]) => ({
+    id: key,
+    ...offer
+  }))
 
   useEffect(() => {
     const observer = new IntersectionObserver(
