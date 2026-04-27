@@ -8,11 +8,13 @@ import { Testimonials } from "@/components/testimonials"
 import { FAQ } from "@/components/faq"
 import { CTA } from "@/components/cta"
 import { Footer } from "@/components/footer"
+import { FloatingOffersButton } from "@/components/floating-offers-button"
 
 export default function Home() {
   return (
     <>
       <Navbar />
+      <FloatingOffersButton />
       <main>
         <Hero />
         <About />
