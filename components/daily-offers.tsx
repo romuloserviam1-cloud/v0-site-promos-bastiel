@@ -137,6 +137,9 @@ function OfferCard({ offer }: { offer: Offer }) {
             {offer.originalPrice}
           </span>
           <div className="text-2xl font-bold text-primary">{offer.salePrice}</div>
+          <p className="text-xs text-muted-foreground mt-1">
+            O preço e disponibilidade do produto podem variar, pois as ofertas são por tempo limitado.
+          </p>
         </div>
 
         {/* CTA Button */}
