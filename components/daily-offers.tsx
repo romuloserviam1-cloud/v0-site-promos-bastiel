@@ -83,7 +83,7 @@ export function DailyOffers() {
           </p>
           <Button asChild size="lg" className="font-semibold">
             <a
-              href="https://chat.whatsapp.com/seu-grupo"
+              href="https://chat.whatsapp.com/Gk46MEKPcJmIYDPQkxjJPf?mode=gi_t"
               target="_blank"
               rel="noopener noreferrer"
             >
