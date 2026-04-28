@@ -1,35 +1,35 @@
 {
   "offer1": {
-    "title": "Smartphone Samsung Galaxy A54",
-    "description": "Tela Super AMOLED 6.4\", 128GB, 8GB RAM, Câmera 50MP",
-    "imageUrl": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&h=400&fit=crop",
-    "originalPrice": "R$ 2.499,00",
-    "salePrice": "R$ 1799,00",
-    "discountPercent": "28%",
-    "store": "Amazon",
-    "link": "https://amazon.com.br"
+    "title": "Tênis Fila Vector Masculino Confortável Estilo Esportivo",
+    "description": "2,40x2,20, Dupla Face Casal, Imita pele de carneiro super macio",
+    "imageUrl": "https://res.cloudinary.com/dgosix4lw/image/upload/v1777340317/WhatsApp_Image_2026-04-27_at_21.16.54_sfadx4.jpg",
+    "originalPrice": "R$ 239,00",
+    "salePrice": "R$ 189,99",
+    "discountPercent": "20%",
+    "store": "Mercado Livre",
+    "link": "https://meli.la/2d2jUzn"
   },
 
   "offer2": {
-    "title": "Kit 3 Camisetas Premium Masculinas Polo Wear",
-    "description": "Tecnologia Rapid Air, Timer digital, 7 funções pré-programadas",
-    "imageUrl": "https://res.cloudinary.com/dgosix4lw/image/upload/v1777336608/WhatsApp_Image_2026-04-27_at_16.34.42_reocde.jpg",
-    "originalPrice": "R$ 599,00",
-    "salePrice": "R$ 399,00",
-    "discountPercent": "43%",
-    "store": "Shopee",
-    "link": "https://magazineluiza.com.br"
+    "title": "Creatina Soldiers Nutrition",
+    "description": "100 Pura Importada com dosador de 3g",
+    "imageUrl": "https://res.cloudinary.com/dgosix4lw/image/upload/v1777340125/WhatsApp_Image_2026-04-27_at_18.00.33_vdlvlg.jpg",
+    "originalPrice": "R$ 239,00",
+    "salePrice": "R$ 59,00",
+    "discountPercent": "75%",
+    "store": "Mercado Livre",
+    "link": "https://meli.la/2iNY7Xd"
   },
 
   "offer3": {
-    "title": "Notebook Lenovo IdeaPad 3",
-    "description": "Intel Core i5, 8GB RAM, SSD 256GB, Tela 15.6\" Full HD",
-    "imageUrl": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400&h=400&fit=crop",
-    "originalPrice": "R$ 3.999,00",
-    "salePrice": "R$ 2.699,00",
-    "discountPercent": "33%",
-    "store": "Mercado Livre",
-    "link": "https://americanas.com.br"
+    "title": "Fogão Itatiaia 4 Bocas Electra Glass Plus Preto Bivolt",
+    "description": "Bivolt, Preto, Mesa em Vidro, 4 Bocas, Acendimento Automatico",
+    "imageUrl": "https://res.cloudinary.com/dgosix4lw/image/upload/v1777340633/WhatsApp_Image_2026-04-27_at_21.08.30_wx9ley.jpg",
+    "originalPrice": "R$ 924,00",
+    "salePrice": "R$ 728,00",
+    "discountPercent": "21%",
+    "store": "Shopee",
+    "link": "https://s.shopee.com.br/AADZHCdaJo"
   },
 
   "offer4": {
@@ -44,46 +44,46 @@
   },
 
   "offer5": {
-    "title": "Smart TV LG 50\" 4K",
-    "description": "WebOS 23, ThinQ AI, HDR10, Bluetooth, Wi-Fi integrado",
+    "title": "Ar Condicionado Split LG AI Dual Inverter",
+    "description": "9.000 btus, Dual Inverter com Conexão Infravermelho, 12 Meses de Garantia",
     "imageUrl": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=400&h=400&fit=crop",
-    "originalPrice": "R$ 3.299,00",
-    "salePrice": "R$ 2.199,00",
-    "discountPercent": "33%",
-    "store": "Casas Bahia",
-    "link": "https://casasbahia.com.br"
+    "originalPrice": "R$ 1.864,00",
+    "salePrice": "R$ 1.714,00",
+    "discountPercent": "8%",
+    "store": "Shopee",
+    "link": "https://s.shopee.com.br/901btO7uKm"
   },
 
   "offer6": {
-    "title": "Fone Bluetooth JBL Tune 510BT",
-    "description": "Até 40h de bateria, conexão multipontos, dobrável",
-    "imageUrl": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=400&fit=crop",
-    "originalPrice": "R$ 299,00",
-    "salePrice": "R$ 179,00",
-    "discountPercent": "40%",
-    "store": "Amazon",
-    "link": "https://amazon.com.br"
+    "title": "Kit 2 Pneus 175/75 R14 Transmate Touring H7 87T Novos Aro 14",
+    "description": "Aro 14, Perfil 75%, 5 Anos de Garantia",
+    "imageUrl": "https://res.cloudinary.com/dgosix4lw/image/upload/v1777338686/WhatsApp_Image_2026-04-27_at_20.26.38_m204do.jpg",
+    "originalPrice": "R$ 611,00",
+    "salePrice": "R$ 474,00",
+    "discountPercent": "18%",
+    "store": "Shopee",
+    "link": "https://s.shopee.com.br/7KtNuRyRMq"
   },
 
   "offer7": {
-    "title": "Cafeteira Nespresso Vertuo",
-    "description": "Sistema cápsulas, 5 tamanhos de café, aquecimento rápido",
-    "imageUrl": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?w=400&h=400&fit=crop",
-    "originalPrice": "R$ 899,00",
-    "salePrice": "R$ 599,00",
-    "discountPercent": "33%",
-    "store": "Magazine Luiza",
-    "link": "https://magazineluiza.com.br"
+    "title": "Whey Protein 100% 3VS Nutrition",
+    "description": "23g Por Dose, Zero Açúcar, 4.3g de Glutamina por dose.",
+    "imageUrl": "https://res.cloudinary.com/dgosix4lw/image/upload/v1777341195/WhatsApp_Image_2026-04-27_at_20.59.45_tyl9zk.jpg",
+    "originalPrice": "R$ 169,00",
+    "salePrice": "R$ 142,00",
+    "discountPercent": "12%",
+    "store": "Shopee",
+    "link": "https://s.shopee.com.br/5VRjjUmjiv"
   },
 
   "offer8": {
-    "title": "Relógio Smartwatch Xiaomi Band 8",
-    "description": "Tela AMOLED, monitoramento cardíaco, 150+ modos esportivos",
-    "imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=400&fit=crop",
-    "originalPrice": "R$ 349,00",
-    "salePrice": "R$ 229,00",
-    "discountPercent": "34%",
-    "store": "Americanas",
-    "link": "https://americanas.com.br"
+    "title": "Pasta De Amendoim Dr. Peanut Cookies & Cream 250g",
+    "description": "Fonte de energia rápida e saborosa para o dia a dia",
+    "imageUrl": "https://res.cloudinary.com/dgosix4lw/image/upload/v1777341418/WhatsApp_Image_2026-04-27_at_19.57.15_vh2dmv.jpg",
+    "originalPrice": "R$ 39,00",
+    "salePrice": "R$ 22,99",
+    "discountPercent": "41%",
+    "store": "Shopee",
+    "link": "https://s.shopee.com.br/9zu95wVYsX"
   }
 }
