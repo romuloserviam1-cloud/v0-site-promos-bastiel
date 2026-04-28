@@ -4,7 +4,7 @@ import { useEffect, useRef } from "react"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, ShoppingBag, Percent, Star } from "lucide-react"
 
-const GROUP_LINK = "https://bit.ly/promosbastiel"
+const GROUP_LINK = "https://chat.whatsapp.com/Gk46MEKPcJmIYDPQkxjJPf?mode=gi_t"
 
 export function Hero() {
   const sectionRef = useRef<HTMLElement>(null)
