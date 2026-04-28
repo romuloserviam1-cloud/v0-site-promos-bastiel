@@ -33,14 +33,14 @@
   },
 
   "offer4": {
-    "title": "Tênis Nike Air Max 90",
-    "description": "Clássico revisitado, tecnologia Air Max, conforto premium",
-    "imageUrl": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop",
-    "originalPrice": "R$ 899,00",
-    "salePrice": "R$ 549,00",
-    "discountPercent": "39%",
-    "store": "Netshoes",
-    "link": "https://netshoes.com.br"
+    "title": "Bicicleta Bike Eletrica V9 Max 1000w",
+    "description": "1000W,32km, No Precisa de CNH ",
+    "imageUrl": "https://res.cloudinary.com/dgosix4lw/image/upload/v1777343928/WhatsApp_Image_2026-04-27_at_16.58.52_dk3x6x.jpg",
+    "originalPrice": "R$ 10.725,00",
+    "salePrice": "R$ 6.692,00",
+    "discountPercent": "37%",
+    "store": "Mercado Livre",
+    "link": "https://meli.la/12FkmHY"
   },
 
   "offer5": {
