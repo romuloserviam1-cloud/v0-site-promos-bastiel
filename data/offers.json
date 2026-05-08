@@ -1,89 +1,89 @@
 {
   "offer1": {
-    "title": "Tenis Puma Court Classic",
+    "title": "Tênis Fila Rise Up",
     "description": "Cano baixo, Original, Super Confortável",
-    "imageUrl": "https://res.cloudinary.com/dgosix4lw/image/upload/v1777393877/WhatsApp_Image_2026-04-28_at_10.27.34_2_d6c8pb.jpg",
-    "originalPrice": "R$ 129,00",
-    "salePrice": "R$ 69,99",
-    "discountPercent": "22%",
+    "imageUrl": "https://res.cloudinary.com/dgosix4lw/image/upload/v1778257039/WhatsApp_Image_2026-05-08_at_11.56.37_xsfmza.jpg",
+    "originalPrice": "R$ 399,00",
+    "salePrice": "R$ 199,99",
+    "discountPercent": "49%",
     "store": "Mercado Livre",
-    "link": "https://meli.la/1dd1pjh"
+    "link": "https://meli.la/2DcwoXy"
   },
 
   "offer2": {
-    "title": "Creatina Soldiers Nutrition",
-    "description": "100 Pura Importada com dosador de 3g",
-    "imageUrl": "https://res.cloudinary.com/dgosix4lw/image/upload/v1777340125/WhatsApp_Image_2026-04-27_at_18.00.33_vdlvlg.jpg",
-    "originalPrice": "R$ 239,00",
-    "salePrice": "R$ 59,00",
+    "title": "DRY FIT DA LUPO",
+    "description": "Kit 2 Camiseta Dry Fit Masculina Lupo Básica",
+    "imageUrl": "https://res.cloudinary.com/dgosix4lw/image/upload/v1778257076/WhatsApp_Image_2026-05-08_at_11.52.17_gmpe2y.jpg",
+    "originalPrice": "R$ 187,00",
+    "salePrice": "R$ 129,99",
     "discountPercent": "75%",
     "store": "Mercado Livre",
-    "link": "https://meli.la/2iNY7Xd"
+    "link": "https://meli.la/2x9MsRw"
   },
 
   "offer3": {
-    "title": "Fogão Itatiaia 4 Bocas Electra Glass Plus Preto Bivolt",
-    "description": "Bivolt, Preto, Mesa em Vidro, 4 Bocas, Acendimento Automatico",
-    "imageUrl": "https://res.cloudinary.com/dgosix4lw/image/upload/v1777340633/WhatsApp_Image_2026-04-27_at_21.08.30_wx9ley.jpg",
-    "originalPrice": "R$ 924,00",
-    "salePrice": "R$ 728,00",
-    "discountPercent": "21%",
-    "store": "Shopee",
-    "link": "https://s.shopee.com.br/AADZHCdaJo"
+    "title": "Calça Balão Jeans Streetwear Larga Bag",
+    "description": "Tecido 100% algodão leve e encorpado, garantindo mobilidade e respirabilidade.",
+    "imageUrl": "https://res.cloudinary.com/dgosix4lw/image/upload/v1778257111/WhatsApp_Image_2026-05-08_at_11.47.26_fc7thv.jpg",
+    "originalPrice": "R$ 109,00",
+    "salePrice": "R$ 54,00",
+    "discountPercent": "50%",
+    "store": "Mercado Livre",
+    "link": "https://meli.la/1pnW2sV"
   },
 
   "offer4": {
-    "title": "Bicicleta Bike Eletrica V9 Max 1000w",
-    "description": "1000W, 32km, Até 60km de Autonomia",
-    "imageUrl": "https://res.cloudinary.com/dgosix4lw/image/upload/v1777343928/WhatsApp_Image_2026-04-27_at_16.58.52_dk3x6x.jpg",
-    "originalPrice": "R$ 10.725,00",
-    "salePrice": "R$ 6.692,00",
-    "discountPercent": "37%",
+    "title": "Whey Concentrado Pouch 900g Cookies & Cream Nutrata",
+    "description": "100% WPC; - Elevada concentração proteica por dose; - Low Carb; - Baixo teor de sódio; - Livre de adoçantes artificiais como acessulfame K e aspartame.",
+    "imageUrl": "https://res.cloudinary.com/dgosix4lw/image/upload/v1778257155/WhatsApp_Image_2026-05-08_at_10.32.57_dp2cea.jpg",
+    "originalPrice": "R$ 165,00",
+    "salePrice": "R$ 119,00",
+    "discountPercent": "28%",
     "store": "Mercado Livre",
-    "link": "https://meli.la/12FkmHY"
+    "link": "https://meli.la/1zkNZo9"
   },
 
   "offer5": {
-    "title": "Ar Condicionado Split LG AI Dual Inverter",
-    "description": "9.000 btus, Dual Inverter com Conexão Infravermelho, 12 Meses de Garantia",
-    "imageUrl": "https://res.cloudinary.com/dgosix4lw/image/upload/v1777341608/WhatsApp_Image_2026-04-27_at_20.52.36_jbwnxc.jpg",
-    "originalPrice": "R$ 1.864,00",
-    "salePrice": "R$ 1.714,00",
-    "discountPercent": "8%",
-    "store": "Shopee",
-    "link": "https://s.shopee.com.br/901btO7uKm"
+    "title": "Jaqueta Bomber Courino Com Zíper",
+    "description": "Modelo Bomber Masculino - Courino Premium - Fechamento em zíper reforçado",
+    "imageUrl": "https://res.cloudinary.com/dgosix4lw/image/upload/v1778257198/WhatsApp_Image_2026-05-08_at_11.20.36_yegnlw.jpg",
+    "originalPrice": "R$ 190,00",
+    "salePrice": "R$ 75,00",
+    "discountPercent": "53%",
+    "store": "Mercado Livre",
+    "link": "https://meli.la/2RmUsh8"
   },
 
   "offer6": {
-    "title": "Kit 2 Pneus 175/75 R14 Transmate Touring H7 87T Novos Aro 14",
-    "description": "Aro 14, Perfil 75%, 5 Anos de Garantia",
-    "imageUrl": "https://res.cloudinary.com/dgosix4lw/image/upload/v1777338686/WhatsApp_Image_2026-04-27_at_20.26.38_m204do.jpg",
-    "originalPrice": "R$ 611,00",
-    "salePrice": "R$ 474,00",
-    "discountPercent": "18%",
-    "store": "Shopee",
-    "link": "https://s.shopee.com.br/7KtNuRyRMq"
+    "title": "Omega Plus 240 Caps Dark Lab",
+    "description": "Selo de Qualidade VLabor. - Fonte de Ômega 3 (TG). - Extraído de águas frias e profundas de regiões polares.",
+    "imageUrl": "https://res.cloudinary.com/dgosix4lw/image/upload/v1778257240/WhatsApp_Image_2026-05-08_at_11.14.18_oq6zeh.jpg",
+    "originalPrice": "R$ 179,00",
+    "salePrice": "R$ 99,00",
+    "discountPercent": "44%",
+    "store": "Mercado Livre",
+    "link": "https://meli.la/1TxiY64"
   },
 
   "offer7": {
-    "title": "Whey Protein 100% 3VS Nutrition",
-    "description": "23g Por Dose, Zero Açúcar, 4.3g de Glutamina por dose.",
-    "imageUrl": "https://res.cloudinary.com/dgosix4lw/image/upload/v1777341195/WhatsApp_Image_2026-04-27_at_20.59.45_tyl9zk.jpg",
-    "originalPrice": "R$ 169,00",
-    "salePrice": "R$ 142,00",
-    "discountPercent": "12%",
-    "store": "Shopee",
-    "link": "https://s.shopee.com.br/5VRjjUmjiv"
+    "title": "2 unidades Creatina Monohidratada Pura 500g Dark Lab",
+    "description": "Pureza comprovada em todos os aspectos. Passando por rigorosos testes de qualidade, garantindo sua excelência",
+    "imageUrl": "https://res.cloudinary.com/dgosix4lw/image/upload/v1778257265/WhatsApp_Image_2026-05-08_at_11.12.37_v1wab1.jpg",
+    "originalPrice": "R$ 119,00",
+    "salePrice": "R$ 59,80",
+    "discountPercent": "50%",
+    "store": "Mercado Livre",
+    "link": "https://meli.la/1oCTUD8"
   },
 
   "offer8": {
-    "title": "Pasta De Amendoim Dr. Peanut Cookies & Cream 250g",
-    "description": "Fonte de energia rápida e saborosa para o dia a dia",
-    "imageUrl": "https://res.cloudinary.com/dgosix4lw/image/upload/v1777341418/WhatsApp_Image_2026-04-27_at_19.57.15_vh2dmv.jpg",
-    "originalPrice": "R$ 39,00",
-    "salePrice": "R$ 22,99",
-    "discountPercent": "41%",
-    "store": "Shopee",
-    "link": "https://s.shopee.com.br/9zu95wVYsX"
+    "title": "Kit 6 Cuecas Boxer Microfibra Polo Wear",
+    "description": "Acabamento cós sem costura - Cós largo com logo Polo Wear - Elastano e Poliéster - Toque suave",
+    "imageUrl": "https://res.cloudinary.com/dgosix4lw/image/upload/v1778257295/WhatsApp_Image_2026-05-08_at_11.11.07_aqacfj.jpg",
+    "originalPrice": "R$ 159,00",
+    "salePrice": "R$ 58,00",
+    "discountPercent": "63%",
+    "store": "Mercado Livre",
+    "link": "https://meli.la/21xZwzA"
   }
 }
